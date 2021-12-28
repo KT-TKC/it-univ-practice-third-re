@@ -1,0 +1,45 @@
+article p + p{
+        margin-top: 25px;
+}
+
+.title{
+        background-color: darkcyan;
+}
+.big{
+        font-size: 50px;
+}
+body *{
+       background-color: darkgray;
+}
+h1,p{
+        background-color: pink;
+}
+
+#title{
+       background-color: darkorange;
+}
+article {
+        color: red;
+}
+a[href]{
+        color: yellow;
+}
+article p:first-of-type{
+        color: yellowgreen;
+}
+p:hover{
+        background-color: blue;
+}
+a:hover{
+        font-size: 10px;
+}
+h1::after{
+        content:"!!!!";
+}
+h2::before{
+        content: "###";
+}
+p::first-letter{
+        color: chocolate;
+        font-size: 25px;
+}
